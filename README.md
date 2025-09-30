@@ -73,12 +73,19 @@ python3 -m pip install --upgrade --user ansible
  1113  ssh -l ubuntu 158.160.44.99
 ```
 
-Склонировал к себе репозиторий:
+Склонировал к себе репозиторий:  
+```
 git clone https://github.com/kubernetes-sigs/kubespray
-Установил зависимости
+```
+
+Установил зависимости  
+```
 sudo pip3 install -r requirements.txt
-Копирование примера в папку с вашей конфигурацией
+```
+Копирование примера в папку с вашей конфигурацией  
+```
 cp -rfp inventory/sample inventory/mycluster
+```
 
 
 Понизил версию ansible иначе не работал скрипт  
