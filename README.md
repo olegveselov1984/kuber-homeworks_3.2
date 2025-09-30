@@ -101,6 +101,11 @@ python3 -m pip install --user ansible-core==2.17.5
 ansible-playbook -i inventory/mycluster/inventory.ini cluster.yml -b -v --key-file "~/.ssh/yan"
 ```
 
+<img width="1072" height="860" alt="image" src="https://github.com/user-attachments/assets/558828da-6c93-4508-a932-1b00f05956f4" />
+
+
+<img width="521" height="164" alt="image" src="https://github.com/user-attachments/assets/8eb2528c-de19-4d6a-a1f8-c78317641419" />
+
 
 
 ## Дополнительные задания (со звёздочкой)
