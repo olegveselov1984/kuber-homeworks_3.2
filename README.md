@@ -55,9 +55,11 @@ python3 -m pip install --user ansible-core==2.18.6
 python3 -m pip install --upgrade --user ansible
 ```
 
-Подключился к каждой из ВМ
+Подключился к каждой из ВМ  
 
-<img width="475" height="125" alt="image" src="https://github.com/user-attachments/assets/dc7d8f74-fae0-418b-bdff-bfeca2e47e4e" />
+
+<img width="475" height="125" alt="image" src="https://github.com/user-attachments/assets/dc7d8f74-fae0-418b-bdff-bfeca2e47e4e" />  
+
 ```
  1109  ssh -l ubuntu 89.169.135.79
  1110  ssh -l ubuntu 89.169.155.18
@@ -74,13 +76,14 @@ sudo pip3 install -r requirements.txt
 cp -rfp inventory/sample inventory/mycluster
 
 
-Понизил версию ansible иначе не работал скрипт
+Понизил версию ansible иначе не работал скрипт  
+
 ```
 python3 -m pip install --user ansible-core==2.17.5
 ```
 
 Перенес приватный ключь, для подключения к ВМ в файл ~/.ssh/yan
-Запустил скрипт
+Запустил скрипт  
 
 ```
 ansible-playbook -i inventory/mycluster/inventory.ini cluster.yml -b -v --key-file "~/.ssh/yan"
