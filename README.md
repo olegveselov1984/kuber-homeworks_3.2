@@ -106,6 +106,7 @@ ansible-playbook -i inventory/mycluster/inventory.ini cluster.yml -b -v --key-fi
 
 <img width="521" height="164" alt="image" src="https://github.com/user-attachments/assets/8eb2528c-de19-4d6a-a1f8-c78317641419" />
 
+<img width="508" height="224" alt="image" src="https://github.com/user-attachments/assets/1cf42a01-7921-41bb-8028-a55d7e51482c" />
 
 
 ## Дополнительные задания (со звёздочкой)
