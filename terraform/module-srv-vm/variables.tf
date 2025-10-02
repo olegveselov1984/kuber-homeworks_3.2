@@ -62,7 +62,7 @@ variable "boot_disk_type" {
 
 variable "boot_disk_size" {
   type    = number
-  default = 10
+  default = 20
 }
 
 variable "public_ip" {

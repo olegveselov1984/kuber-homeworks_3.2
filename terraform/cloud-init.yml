@@ -19,7 +19,7 @@ packages:
 #  - docker
 #  - docker-ce
 #  - docker-ce-cli 
-  - docker.io
-  - docker-compose-plugin
+#  - docker.io
+#  - docker-compose-plugin
 #  - ca-certificates
 #  - curl

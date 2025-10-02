@@ -16,9 +16,9 @@ module "module-srv-master-vm01" {
   env_name = "srv-master-vm01" # Имя одной конкретной ВМ. instance_count не учитывается
   image_family   = "ubuntu-2404-lts"
   public_ip      = true
-  security_group_ids = [
-  yandex_vpc_security_group.example.id 
-  ]
+#  security_group_ids = [
+#  yandex_vpc_security_group.example.id 
+#  ]
    labels = { 
      project = "srv-master-vm01"
       }
@@ -39,9 +39,9 @@ module "module-srv-worker-vm01" {
   env_name = "srv-worker-vm01"
   image_family   = "ubuntu-2404-lts"
   public_ip      = true
-  security_group_ids = [
-  yandex_vpc_security_group.example.id 
-  ]
+  #security_group_ids = [
+  #yandex_vpc_security_group.example.id 
+  #]
    labels = { 
      project = "srv-worker-vm01"
       }
@@ -62,9 +62,9 @@ module "module-srv-worker-vm02" {
   env_name = "srv-worker-vm02"
   image_family   = "ubuntu-2404-lts"
   public_ip      = true
-  security_group_ids = [
-  yandex_vpc_security_group.example.id 
-  ]
+  #security_group_ids = [
+  #yandex_vpc_security_group.example.id 
+  #]
    labels = { 
      project = "srv-worker-vm02"
       }
@@ -84,9 +84,9 @@ module "module-srv-worker-vm03" {
   env_name = "srv-worker-vm03"
   image_family   = "ubuntu-2404-lts"
   public_ip      = true
-  security_group_ids = [
-  yandex_vpc_security_group.example.id 
-  ]
+  #security_group_ids = [
+  #yandex_vpc_security_group.example.id 
+  #]
    labels = { 
      project = "srv-worker-vm03"
       }
@@ -106,9 +106,9 @@ module "module-srv-worker-vm04" {
   env_name = "srv-worker-vm04"
   image_family   = "ubuntu-2404-lts"
   public_ip      = true
-  security_group_ids = [
-  yandex_vpc_security_group.example.id 
-  ]
+  #security_group_ids = [
+  #yandex_vpc_security_group.example.id 
+  #]
    labels = { 
      project = "srv-worker-vm04"
       }
